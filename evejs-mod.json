@@ -5,7 +5,7 @@
     "name": "xuenai"
   },
   "category": "玩法",
-  "changelog": "",
+  "changelog": "修改bug",
   "conflicts": [],
   "delisted": false,
   "description": "像玩家一样的 NPC 势力：独立推演线程按事件推进势力数据（faction.sqlite），为每个势力建机器人账号、角色、公司和联盟，本机面板 127.0.0.1:26410 查看状态。聊天命令 /faction。只在内存中打补丁，不改任何文件；EVEJS_MOD_FACTIONSIM=0 关闭。 必须和 evejs-npc-fleet（NPC 舰队模板）一起安装；推荐再装 evejs-perf-fix。首次启动数据库为空时自动按「开放宇宙」剧本开局，面板有「入门」页。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim/releases/download/v0.2.2/evejs-faction-sim-0.2.2.zip"
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim/releases/download/v0.2.3/evejs-faction-sim-0.2.3.zip"
     }
   ],
   "evejsVersions": [
@@ -48,8 +48,8 @@
   ],
   "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim",
   "requiresRestart": true,
-  "sha256": "15f368a765e9b0dd107c936c3e590b0d59e85db07216eb031ccaa83ef2232921",
-  "sizeBytes": 5391318,
+  "sha256": "327bb5ceb98c55883cb902ed8e9b5b6500d963907b6e58ebea84bd2010163e8a",
+  "sizeBytes": 5393741,
   "tags": [],
-  "version": "0.2.2"
+  "version": "0.2.3"
 }
