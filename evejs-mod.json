@@ -49,8 +49,8 @@
   ],
   "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim",
   "requiresRestart": true,
-  "sha256": "6fe6c46015c2aac76206658e8988705a290450dc08e8afbcb4852b8dd62fd8c4",
-  "sizeBytes": 13091121,
+  "sha256": "8b300221f25d045229cfccd5da8e7d403baf4782d4c358cf3a0e8285f8e3a224",
+  "sizeBytes": 13091119,
   "tags": [],
   "version": "0.4.1"
 }
