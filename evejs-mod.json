@@ -5,7 +5,7 @@
     "name": "匿名"
   },
   "category": "玩法",
-  "changelog": "",
+  "changelog": "回滚启动器令牌",
   "conflicts": [],
   "delisted": false,
   "description": "【仅限本机／内网使用，禁止用于公开或收费服务器】【整合版：一个 mod 装齐】NPC 势力模拟，把以前要分开装的几个合成了一个：势力模拟本体（像玩家一样的 NPC 势力：独立推演线程按事件推进势力数据 faction.sqlite，为每个势力建机器人账号、角色、公司和联盟，本机面板 127.0.0.1:26410，聊天命令 /faction） + 舰队模板（原 evejs-npc-fleet：整队生成 / 阵型 / 整队跃迁，/npcfleet） + 性能修复（原 evejs-perf-fix：空间帧循环 / 锁定扫描 / NPC 存储） + 舰长室 PoC（原 evejs-captains-quarters，/cq）。只装这一个就够了，不用再单独装那三个；如果你以前单独装过它们并且还启用着，整合版里自带的那份自动不加载，用你单独装的，不会冲突。只在内存中打补丁，不改任何文件；分项开关 EVEJS_MOD_FACTIONSIM=0、EVEJS_MOD_NPCFLEET=0、EVEJS_MOD_PERFFIX=0、EVEJS_MOD_CQ=0。首次启动数据库为空时自动按「开放宇宙」剧本开局，面板有「入门」页。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim/releases/download/v0.4.2/evejs-faction-sim-0.4.2.zip"
+      "url": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim/releases/download/v0.4.3/evejs-faction-sim-0.4.3.zip"
     }
   ],
   "evejsVersions": [
@@ -37,7 +37,7 @@
   ],
   "history": [],
   "id": "evejs-faction-sim",
-  "publishedAt": "2026-10-22",
+  "publishedAt": "2026-10-23",
   "readme": [
     "> **使用声明：仅限本机／内网使用，禁止用于公开或收费服务器。** 本模组不接受公网地址的连接；作者不同意、也不支持把它用于对外开放或收费的服务器。全文见 [NOTICE.md](NOTICE.md)。",
     "> **只装 `evejs-faction-sim` 这一个 mod。** 舰队模板（原 `evejs-npc-fleet`，势力的舰船靠它整队生成、摆阵型、整队跃迁）、性能修复（原 `evejs-perf-fix`）和舰长室 PoC（原 `evejs-captains-quarters`）都在它的 `parts/` 里，加载时按这个顺序一起装上（`lib/bundle.js`）。\n> 以前单独装过那三个、现在还启用着的：自带的那份不加载，用单独装的，不会冲突；想改用自带的，把单独装的卸载或停用，重启。分项开关：`EVEJS_MOD_FACTIONSIM=0`、`EVEJS_MOD_NPCFLEET=0`、`EVEJS_MOD_PERFFIX=0`、`EVEJS_MOD_CQ=0`。",
@@ -49,8 +49,8 @@
   ],
   "repo": "https://github.com/xuenaimiao/evejs-mod-evejs-faction-sim",
   "requiresRestart": true,
-  "sha256": "3f11bf119f1b1def84bce554b3cd42ac88a6c75e9cfecb2273cf885106dea910",
-  "sizeBytes": 13096777,
+  "sha256": "d3af93debb7a62d9e54cab04f5579d069952f9435163a2e8021ca20c67e237d5",
+  "sizeBytes": 13096999,
   "tags": [],
-  "version": "0.4.2"
+  "version": "0.4.3"
 }
